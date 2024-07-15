@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/todolist.css" />
+    <title>To Do List</title>
+</head>
+<body>
+    <h1>To Do List</h1>
+    <div class="container">
+        <div class="todo-add">
+            <input class="field" id="taskInput" placeholder="Добавить задачу">
+            <button class="add_task" type="button" onclick="createTask()">Добавить</button>
+        </div>
+        <h3>Список задач</h3>
+        <div class="to-do--list" id="outList">
+        </div>
+        <button class="clearList" type="button" id="clearId" onclick="clearTodo()" disabled>Очистить</button>
+
+    </div>
+    <script src="todolist.js"></script>   
+</body>
+</html>
