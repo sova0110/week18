@@ -1,0 +1,29 @@
+h1{
+    color:blue;
+    text-align: center;
+  }
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+input[type="checkbox"]:checked {
+    background: lightgreen;
+    background-size: 20px 20px;
+}
+h3{
+    color:blue;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.to-do--list{
+    margin-bottom: 20px;
+}

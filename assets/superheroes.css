@@ -1,0 +1,27 @@
+img{
+    width: 30vw;
+}
+.heroeCard{
+    width: 30vw;
+    border: solid black 1px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.superheroes--list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+i{
+  color:lightgrey;
+  cursor:pointer;
+  transition: color 0.2s ease;
+  font-size: 35px;
+}
+i.active{
+  color:yellow;
+}
